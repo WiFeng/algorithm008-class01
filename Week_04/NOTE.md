@@ -1,6 +1,7 @@
 # 学习笔记
 
 ## 深度优先搜索
+  * Depth First Search
   * 可以使用递归实现，也可以通过自行维护栈来实现
   * 代码模板 - 递归写法
   ```
@@ -15,6 +16,7 @@
               dfs(next_node, visited)
   ```
 ## 广度优先搜索
+  * Breadth First Search
   * 需要借助队列来实现（广度优先就不能通过递归实现了）
   * 代码模板
   ```
@@ -78,7 +80,7 @@
  
 # 个人感悟
   * 牛顿迭代法 没有看明白，抽时间再深入了解 （https://www.beyond3d.com/content/articles/8/）
-  * 深度优先搜素，广度优先优先搜素本质上是对所有节点都遍历一次，并且仅且只访问一次。
+  * 深度优先搜索，广度优先优先搜索本质上是对所有节点都遍历一次，并且仅且只访问一次。
 
 # Homework
   * https://github.com/WiFeng/leetcode/tree/master/lemonade-change
