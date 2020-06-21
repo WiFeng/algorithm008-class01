@@ -313,8 +313,51 @@ def postorder(self, root):
 * Treap
 * Weight-balanced tree
 
+#### AVL 树
+
+1. 发明者 G.M.Adelson-Velsky 和 Evgenii Landis
+2. Balance Factor(平衡因子)：是它的左子树的高度减去它的右子树的高度（有时相反）。balance factor = {-1, 0, 1}
+3. 通过旋转操作来进行平衡（四种）
+4. https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree
+
+#### 旋转操作
+
+1. 左旋（逆时针，右右子树）
+2. 右旋（顺时针，左左子树）
+3. 左右旋（左右子树）
+4. 右左旋（右左子树）
+
+#### AVL 总结
+
+1. 平衡二叉搜索树
+2. 每个节点存balance factor = {-1, 0, 1}
+3. 四种旋转操作
+
+不足：节点需要存储额外信息，且调整次数频繁
+
+#### 红黑树
+
+红黑树是一种近似平衡的二叉搜索树（Binary Search Tree），它能够确保任何一个节点的左右子树的高度差小于两倍。具体来说，红黑树是满足如下条件的二叉搜索树：
+
+* 每个节点要么是红色，要么是黑色
+* 根节点是黑色
+* 每个叶子节点（nil节点、空节点）是黑色的。
+* 不能有相邻的两个红色节点
+* 从任一节点到其每个叶子节点的所有路径都包含相同数目的黑色节点。
+
+#### 对比
+
+* AVL trees provide faster lookups than Red Black Trees because they are more sticktly balanced.
+* Red Black Trees provide faster insertion and removal operations than AVL trees as fewer rotations are done due to relatively relaxed balancing.
+* AVL trees store balance factors or heights with each node, thus requires strage for an integer per node whereas Red Black Tree requires only 1 bit of informatioin per node.
+* Red Black Trees are used in most of the language libraries like map, multimap, multiset in C++ whereas AVL trees are used in databases where faster retrievals are required.
 
 ## Homework
 
 * https://github.com/WiFeng/leetcode/tree/master/climbing-stairs
 * https://github.com/WiFeng/leetcode/tree/master/implement-trie-prefix-tree
+
+待完成
+
+* https://leetcode-cn.com/problems/friend-circles
+* https://leetcode-cn.com/problems/word-ladder/
