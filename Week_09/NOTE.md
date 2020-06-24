@@ -57,3 +57,4 @@ function DP():
 
 * https://github.com/WiFeng/leetcode/tree/master/first-unique-character-in-a-string
 * https://github.com/WiFeng/leetcode/tree/master/reverse-string-ii
+* https://github.com/WiFeng/leetcode/tree/master/longest-increasing-subsequence
