@@ -1,4 +1,4 @@
-学习笔记
+# 学习笔记
 
 工作都快10年时间了，算法这块知道一些理论，但是由于平时工作中都使用类库、或者是编程语言已经封装好的实现，使得我忽视了算法的具体实现细节。因此，看到一写算法题，有些有思路，但是敲起代码时却无法下手；有一些是完全没有可实现的思路。因此最近想刻意练习一下，提升算法思维。
 
@@ -8,7 +8,8 @@
 
 总结起来，队列、栈 其实也是算特别简单的结构，但是每次重复还是可以学到一些之前没有get到的点。感谢超哥、感谢助教。
 
-本周完成的算法题：
+## 本周完成的算法题
+
 1. https://github.com/WiFeng/leetcode/tree/master/squares-of-a-sorted-array
 2. https://github.com/WiFeng/leetcode/tree/master/valid-parentheses
 3. https://github.com/WiFeng/leetcode/tree/master/design-circular-deque
